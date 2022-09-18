@@ -1,0 +1,150 @@
+<html lang="zh_CN">
+
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+    <meta charset="utf-8">
+    <meta content="width=device-width" name="viewport">
+    <meta
+        content="SPAMTON SWEEPSTAKES!!! DONATE TO CHARITY OR ENTER NOW TO [Win Pr13zes!] AND HELP OUT THE [Little Guys]"
+        name="description">
+    <meta
+        content="SPAMTON SWEEPSTAKES!!! DONATE TO CHARITY OR ENTER NOW TO [Win Pr13zes!] AND HELP OUT THE [Little Guys]"
+        property="og:description">
+    <meta content="$PAMTON G. $PAMTON" name="author">
+    <meta content="/assets/images/spamton-sweepstakes-logo.png" property="og:image">
+    <meta content="DELTARUNE" property="og:site_name">
+    <link href="/assets/images/favicon.png" rel="icon" type="image/png">
+    <meta content="#000000" name="theme-color">
+    <title>ENTER SPAMTON SWEEPSTAKES FOR FREE!!!</title>
+    <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.2/css/bootstrap.min.css"
+        integrity="sha512-rt/SrQ4UNIaGfDyEXZtNcyWvQeOq0QLygHluFQcSjaGB04IxWhal71tKuzP6K8eYXYB6vJV4pHkXcmFGGQ1/0w=="
+        referrerpolicy="no-referrer" rel="stylesheet" type="text/css">
+    <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
+        integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw=="
+        referrerpolicy="no-referrer" rel="stylesheet" type="text/css">
+    <link href="/assets/css/main.css" rel="stylesheet" type="text/css">
+    <link href="/assets/css/spamton.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <main class="wrapper">
+        <div id="hot_deals">
+            <div class="main container" id="free_entry">
+                <div class="row">
+                    <div class="offset-md-4 col-md-4">
+                        <h3>NON-DONATOR</h3>
+                        <h2 style="transform: scale(0.8, 1.8)">TRASH HEAP</h2>
+                        <form action="https://spamton-prizes.fangamer.workers.dev/entry" id="free_entry_form"
+                            method="POST">
+                            <div class="form-group"><label class="form-label" for="email">EMAIL</label><input
+                                    class="form-control" id="email" name="email" placeholder="YOUR EMAIL" required
+                                    type="email"></div>
+                            <div class="form-group"><label class="form-label" for="name">DISPLAY NAME</label><input
+                                    class="form-control" id="name" name="name" placeholder="YOUR NAME/HANDLE" required
+                                    type="text"><small class="form-help">* NAME OR PREFERRED HANDLE. <span
+                                        class='yellow'>WILL BE DISPLAYED PUBLICLY</span> IF YOU ARE DRAWN AS A POTENTIAL
+                                    WINNER</small></div>
+                            <h6 class="form-label">YOU MUST BE AGE 18 OR OLDER AND A RESIDENT OF THE UNITED STATES TO
+                                ENTER</h6>
+                            <div class="form-check"><input class="form-check-input" id="legal" name="legal" required
+                                    type="checkbox"><label class="form-check-label" for="legal">I AM AGE 18 OR OLDER AND
+                                    A RESIDENT OF THE UNITED STATES</label></div>
+                            <h6 class="form-label">ORGAN DONOR <small>(IN CASE OF YOUR UNTIMELY [Cungadero accident],
+                                    YOU FORFEIT YOUR [HeartShapedObject] TO SPAMTON)</small></h6>
+                            <div class="form-check"><input class="form-check-input" id="organs" name="organs"
+                                    type="checkbox"><label class="form-check-label" for="organs">ORGANS</label></div>
+                            <h6 class="form-label">BLOOD TYPE</h6>
+                            <div class="form-check form-check-inline"><input class="form-check-input" id="haveblood"
+                                    name="blood" type="radio" value="have"><label class="form-check-label"
+                                    for="haveblood">HAVE</label></div>
+                            <div class="form-check form-check-inline"><input class="form-check-input" id="noblood"
+                                    name="blood" type="radio" value="dont"><label class="form-check-label"
+                                    for="noblood">DON'T</label></div>
+                            <h6 class="form-label">$#&* TYPE</h6>
+                            <div class="form-check form-check-inline"><input class="form-check-input" id="type1"
+                                    name="type" type="radio" value="1"><label class="form-check-label"
+                                    for="type1">1</label></div>
+                            <div class="form-check form-check-inline"><input class="form-check-input" id="type2"
+                                    name="type" type="radio" value="2"><label class="form-check-label"
+                                    for="type2">2</label></div>
+                            <div class="form-check form-check-inline"><input class="form-check-input" id="type3"
+                                    name="type" type="radio" value="3"><label class="form-check-label"
+                                    for="type3">3</label></div>
+                            <div class="form-check form-check-inline"><input class="form-check-input" id="type4"
+                                    name="type" type="radio" value="4"><label class="form-check-label"
+                                    for="type4">4</label></div>
+                            <div class="form-check form-check-inline"><input class="form-check-input" id="type6"
+                                    name="type" type="radio" value="6"><label class="form-check-label"
+                                    for="type6">6</label></div>
+                            <div class="form-group text-center mt">
+                                <div class="h-captcha" data-sitekey="0a4a418b-ce93-4cf0-bde1-f1912a3d900a"></div>
+                            </div>
+                            <div class="text-center"><input class="btn btn-success btn-lg" id="submit" type="submit"
+                                    value="ENTER"></div>
+                        </form>
+                        <div id="errors"></div>
+                        <div class="hidden" id="entered">
+                            <div class="text-left" id="h3">THANKS FOR ENTERING</div>
+                            <h2 style="transform: scale(0.7, 1.5)">$PAMTON $WEEEPSTAKES</h2>
+                            <div class="text-left" id="h3">REMEMBER TO TUNE IN ON OUR YOUTUBE CHANNEL ON SEPTEMBER 18 IN
+                                ORDER TO SEE</div>
+                            <h2 class="mt-big" style="transform: scale(0.8, 1.6)">IF YOU WON!!!!!!!!!!!!</h2>
+                        </div>
+                        <div class="mt-big">
+                            <h5 class="text-left">Note: Entry is limited to 1 per email address.</h5>
+                            <h5 class="text-left mt"><a class="yellow" href="/sweepstakes/rules">OFFICIAL RULES</a></h5>
+                        </div>
+                        <div class="mt-big"><a class="yellow" href="/sweepstakes" id="back">
+                                < BACK</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script async defer src="https://js.hcaptcha.com/1/api.js"></script>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row mb">
+                <div class="offset-sm-3 col-sm-6"><a class="yellow" href="/">Take me back home, please</a></div>
+            </div>
+            <div class="row">
+                <div class="offset-sm-3 col-sm-6">
+                    <div class="privacy"><a href="https://www.fangamer.com/pages/privacy" target="_blank">Privacy
+                            Policy</a><small class="text-muted mr-2 ml-2">&middot;</small><a
+                            href="/sweepstakes/rules">Official Rules</a></div>
+                    <div class="privacy mt-4"><a href="/sweepstakes/credits">Hosted by Fangamer</a></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div aria-atomic="true" aria-live="polite" class="d-flex justify-content-start align-items-start" id="toast_hell">
+    </div>
+    <script crossorigin="anonymous"
+        integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+        referrerpolicy="no-referrer" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script crossorigin="anonymous"
+        integrity="sha512-igl8WEUuas9k5dtnhKqyyld6TzzRjvMqLC79jkgT3z02FvJyHAuUtyemm/P/jYSne1xwFI06ezQxEwweaiV7VA=="
+        referrerpolicy="no-referrer"
+        src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.2/js/bootstrap.bundle.min.js"></script>
+    <script crossorigin="anonymous"
+        integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA=="
+        referrerpolicy="no-referrer"
+        src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <script crossorigin="anonymous"
+        integrity="sha512-Ot7ArUEhJDU0cwoBNNnWe487kjL5wAOsIYig8llY/l0P2TUFwgsAHVmrZMHsT8NGo+HwkjTJsNErS6QqIkBxDw=="
+        referrerpolicy="no-referrer" src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.11.5/dayjs.min.js"></script>
+    <script crossorigin="anonymous"
+        integrity="sha512-MVzDPmm7QZ8PhEiqJXKz/zw2HJuv61waxb8XXuZMMs9b+an3LoqOqhOEt5Nq3LY1e4Ipbbd/e+AWgERdHlVgaA=="
+        referrerpolicy="no-referrer"
+        src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.11.5/plugin/relativeTime.min.js"></script>
+    <script src="/assets/javascripts/reallyplayer.js"></script>
+    <script src="/assets/javascripts/enter.js"></script>
+    <script defer
+        src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194"
+        integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw=="
+        data-cf-beacon='{"rayId":"74c9b74c3b55313a","token":"377f50f2716b474ea394c9bbd3aaef87","version":"2022.8.1","si":100}'
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
