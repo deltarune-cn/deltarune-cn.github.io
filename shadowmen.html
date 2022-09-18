@@ -1,0 +1,48 @@
+<html lang="zh_CN">
+
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+    <meta charset="utf-8">
+    <meta content="width=device-width" name="viewport">
+    <meta content="#000000" name="theme-color">
+    <meta content="noindex" name="robots">
+    <title>You're the Annoying Now Dog!</title>
+    <link href="/assets/css/extra.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <main>
+        <script crossorigin="anonymous"
+            integrity="sha512-yBpuflZmP5lwMzZ03hiCLzA94N0K2vgBtJgqQ2E1meJzmIBfjbb7k4Y23k2i2c/rIeSUGc7jojyIY5waK3ZxCQ=="
+            referrerpolicy="no-referrer"
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.slim.min.js"></script>
+        <script crossorigin="anonymous"
+            integrity="sha512-6+YN/9o9BWrk6wSfGxQGpt3EUK6XeHi6yeHV+TYD2GR0Sj/cggRpXr1BrAQf0as6XslxomMUxXp2vIl+fv0QRA=="
+            referrerpolicy="no-referrer"
+            src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
+        <div id="ytand">
+            <div class="shadowmen" id="video"><video loop playsinline poster="/assets/images/shadowmen-thumb.png"
+                    volume="0.7">
+                    <source src="/assets/images/shadowmen.webm" type="video/webm">
+                    <source src="/assets/images/shadowmen.mp4" type="video/mp4">
+                    <p>Your browser does not support video playback. Please <a
+                            href="/assets/images/shadowmen.mp4">download the file</a> to watch.</p>
+                </video></div>
+        </div>
+        <style>
+            .shadowmen video {
+                width: 100%;
+                object-fit: contain;
+                image-rendering: pixelated;
+            }
+        </style>
+        <script>  $(document).on('click', '.shadowmen:not(.playing)', function () { $('.shadowmen').addClass('playing'); $('video')[0].play(); }); $(document).on('click', '.shadowmen.playing', function () { $('.shadowmen').removeClass('playing'); $('video')[0].pause(); });</script>
+    </main>
+    <script defer
+        src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194"
+        integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw=="
+        data-cf-beacon='{"rayId":"74c918821dcb0cab","token":"377f50f2716b474ea394c9bbd3aaef87","version":"2022.8.1","si":100}'
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
